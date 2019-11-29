@@ -1,7 +1,7 @@
 # Caveman-C64
 Commodore 64 port of the Grandstand/Tomy/Tandy electronic table-top game.
 
-Tools:
+# Tools:
 
 KickAssembler
 Sublime Text
@@ -10,12 +10,12 @@ SpritePad
 GoatTracker
 Exomizer
 
-Credits:
+# Credits:
 
-[*] Code           Nick Sherman
-GFX            Nick Sherman
-Title Music    Richard Bayliss
-Game Tunes     Stepz
-SFX            Stepz
-SFX            Mike Richmond
+- Code           Nick Sherman
+- GFX            Nick Sherman
+- Title Music    Richard Bayliss
+- Game Tunes     Stepz
+- SFX            Stepz
+- SFX            Mike Richmond
 
