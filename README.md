@@ -14,8 +14,8 @@ Commodore 64 port of the 1980s Grandstand/Tomy/Tandy electronic table-top game. 
 
 # Credits:
 
-- Code           Nick Sherman
-- GFX            Nick Sherman
+- Code           Nick Sherman (madbeagle)
+- GFX            Nick Sherman (madbeagle)
 - Title Music    Richard Bayliss
 - Game Tunes     Stepz
 - SFX            Stepz
