@@ -12,7 +12,7 @@ Exomizer
 
 Credits:
 
-Code           Nick Sherman
+[*] Code           Nick Sherman
 GFX            Nick Sherman
 Title Music    Richard Bayliss
 Game Tunes     Stepz
