@@ -26,7 +26,6 @@ Entry:
 		ldx #0
 		jsr SOUND.SetupSidAddresses
 
-		jsr SOUND.InitialiseSid
 
 		lda #BLACK
 		sta BackgroundColour
@@ -45,6 +44,9 @@ Entry:
 
 
 TitleScreen: {
+
+	ldx #0
+	jsr SOUND.InitialiseSid
 
 
 	lda #ZERO
@@ -88,6 +90,8 @@ Instructions:{
 	sta $d020
 
 	jsr INSLOADER.DrawMap
+
+	jsr VIC.ColourTextRow
 
 	WaitForRaster:
 		lda $d012
