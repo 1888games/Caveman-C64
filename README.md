@@ -24,7 +24,7 @@ Commodore 64 port of the 1980s Grandstand/Tomy/Tandy electronic table-top game. 
 
 No problem with it being uploaded to CSDB, but please credit those involved.
 
-Thanks to Shallan for his Youtube series 'Let's make a C64 game'.
+Thanks to Shallan for his Twitch & Youtube series 'Let's make a C64 game'.
 
 
 
