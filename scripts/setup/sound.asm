@@ -4,25 +4,13 @@
 .eval musicList.add(LoadSid("../assets/Sid/gameover.sid"))
 .eval musicList.add(LoadSid("../assets/Sid/loselife.sid"))
 
-
-Bonus:
-	.import binary "../assets/Sfx/jump.bin"
-
-Hit:
-	.import binary "../assets/Sfx/sfx_boom.bin"
-
-Steal:
-	.import binary "../assets/Sfx/pickup.bin"
-
-
-Low:
-	.import binary "../assets/Sfx/lowsound.bin"
-
-High:
-	.import binary "../assets/Sfx/highsound.bin"
+Bonus: .import binary "../assets/Sfx/jump.bin"
+Hit: .import binary "../assets/Sfx/sfx_boom.bin"
+Steal: .import binary "../assets/Sfx/pickup.bin"
+Low: .import binary "../assets/Sfx/lowsound.bin"
+High: .import binary "../assets/Sfx/highsound.bin"
 
 .label StoreX = TEMP1
-
 
 
 SOUND: {
@@ -56,18 +44,6 @@ SOUND: {
 
 		}
 
-
-			lda #<musicList.get(2).init
-			sta InitLowBytes + 2
-			lda #>musicList.get(2).init
-			sta InitHighBytes + 2
-
-			lda #<musicList.get(2).play
-			sta PlayLowBytes + 2
-			lda #>musicList.get(2).play
-			sta PlayHighBytes + 2
-
-
 		rts
 
 	}
@@ -88,8 +64,6 @@ SOUND: {
 			jsr $FEED
 
 		cli
-
-		//jsr IRQ.SetupInterrupts
 
 		rts
 	

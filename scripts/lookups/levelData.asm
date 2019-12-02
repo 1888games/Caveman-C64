@@ -6,8 +6,8 @@ LEVELDATA:{
 	VolcanoActive:  .byte 0, 0, 1, 1, 1, 1, 0, 1, 1, 1
 	Speed:			.byte 36, 34, 32, 30, 29, 28, 27, 26, 25, 24
 	MaxLava:		.byte 2, 2, 2, 2, 3, 3, 3, 3, 3, 3
-	HatchTime:		.byte 8, 8, 8, 8, 7, 6, 6, 6, 6, 5
-	DinoStunTime: 	.byte 9, 9, 9, 9, 8, 8, 8, 7, 7, 7, 6
+	HatchTime:		.byte 8, 8, 7, 7, 6, 6, 5, 5, 4
+	DinoStunTime: 	.byte 9, 9, 9, 9, 8, 8, 7, 7, 7, 6, 6
 
 	Ones: .byte 1
 	Tens: .byte 0

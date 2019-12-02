@@ -37,7 +37,10 @@ Entry:
 
 		jsr Random.init
 		jsr IRQ.SetupInterrupts
-		
+
+
+	//	ldx #0
+	//	jsr SOUND.InitialiseSid
 
 		jmp TitleScreen
 		jmp LoadGame
@@ -46,6 +49,7 @@ Entry:
 TitleScreen: {
 
 	ldx #0
+	//sta SOUND.CurrentSid
 	jsr SOUND.InitialiseSid
 
 
